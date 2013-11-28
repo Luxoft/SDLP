@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0728C88D15DBF1B400A83097 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0728C88C15DBF1B400A83097 /* MessageUI.framework */; };
+		0765727315C9C47500E21611 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765727215C9C47500E21611 /* database.png */; };
+		077869AC15C01C0000FE9390 /* AddMenuOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 077869AB15C01BFF00FE9390 /* AddMenuOption.m */; };
+		0789F35515AF40CA00ADEF80 /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789F35315AF40C900ADEF80 /* ConsoleViewController.m */; };
+		0789F35615AF40CA00ADEF80 /* ConsoleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0789F35415AF40C900ADEF80 /* ConsoleViewController.xib */; };
+		0789F35A15AF65AF00ADEF80 /* UserTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0789F35815AF65AF00ADEF80 /* UserTestViewController.m */; };
+		0789F35B15AF65AF00ADEF80 /* UserTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0789F35915AF65AF00ADEF80 /* UserTestViewController.xib */; };
+		0789F35F15AF6B2300ADEF80 /* Blank-Blackboard-PSD.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789F35E15AF6B2300ADEF80 /* Blank-Blackboard-PSD.png */; };
+		0789F37415B06BF300ADEF80 /* cog_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789F37315B06BF300ADEF80 /* cog_02@2x.png */; };
+		0789F37615B06BFD00ADEF80 /* cog_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789F37515B06BFD00ADEF80 /* cog_02.png */; };
+		0789F37815B06C6500ADEF80 /* game_controller.png in Resources */ = {isa = PBXBuildFile; fileRef = 0789F37715B06C6500ADEF80 /* game_controller.png */; };
+		079E7D68159A43E800181934 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E7D67159A43E800181934 /* UIKit.framework */; };
+		079E7D6A159A43E800181934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E7D69159A43E800181934 /* Foundation.framework */; };
+		079E7D6C159A43E800181934 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E7D6B159A43E800181934 /* CoreGraphics.framework */; };
+		079E7D72159A43E800181934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 079E7D70159A43E800181934 /* InfoPlist.strings */; };
+		079E7D74159A43E800181934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E7D73159A43E800181934 /* main.m */; };
+		079E7D78159A43E800181934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E7D77159A43E800181934 /* AppDelegate.m */; };
+		079E7D95159A472300181934 /* SDLBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 079E7D94159A472300181934 /* SDLBrain.m */; };
+		079E7D9D159A489F00181934 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079E7D9C159A489F00181934 /* AVFoundation.framework */; };
+		07B19A4215B46ADE00E6D316 /* geogia_alert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A3F15B46ADE00E6D316 /* geogia_alert.jpg */; };
+		07B19A4315B46ADE00E6D316 /* cali_speak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A4015B46ADE00E6D316 /* cali_speak.jpg */; };
+		07B19A4615B46BA400E6D316 /* colorado_addcmd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A4515B46BA400E6D316 /* colorado_addcmd.jpg */; };
+		07B19A4A15B46C4700E6D316 /* AutoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A4815B46C4700E6D316 /* AutoTestViewController.m */; };
+		07B19A4B15B46C4700E6D316 /* AutoTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A4915B46C4700E6D316 /* AutoTestViewController.xib */; };
+		07B19A4D15B48DA100E6D316 /* delaware_show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A4C15B48DA100E6D316 /* delaware_show.jpg */; };
+		07B19A6715B5BF7500E6D316 /* brief_case.png in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A6615B5BF7500E6D316 /* brief_case.png */; };
+		07B19A6B15B9812F00E6D316 /* RPCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A6915B9812E00E6D316 /* RPCTestViewController.m */; };
+		07B19A6C15B9812F00E6D316 /* RPCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A6A15B9812F00E6D316 /* RPCTestViewController.xib */; };
+		07B19A8115B99C3200E6D316 /* SpeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A7F15B99C3200E6D316 /* SpeakViewController.m */; };
+		07B19A8215B99C3200E6D316 /* SpeakViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A8015B99C3200E6D316 /* SpeakViewController.xib */; };
+		07B19A8615B99E4A00E6D316 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A8415B99E4A00E6D316 /* ShowViewController.m */; };
+		07B19A8715B99E4A00E6D316 /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A8515B99E4A00E6D316 /* ShowViewController.xib */; };
+		07B19A8B15B99F0800E6D316 /* UnregisterAppInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A8915B99F0800E6D316 /* UnregisterAppInterfaceViewController.m */; };
+		07B19A8C15B99F0800E6D316 /* UnregisterAppInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A8A15B99F0800E6D316 /* UnregisterAppInterfaceViewController.xib */; };
+		07B19A9015B99F1600E6D316 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A8E15B99F1500E6D316 /* AlertViewController.m */; };
+		07B19A9115B99F1600E6D316 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A8F15B99F1500E6D316 /* AlertViewController.xib */; };
+		07B19A9515B99F2500E6D316 /* SetMediaClockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A9315B99F2400E6D316 /* SetMediaClockTimerViewController.m */; };
+		07B19A9615B99F2500E6D316 /* SetMediaClockTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A9415B99F2400E6D316 /* SetMediaClockTimerViewController.xib */; };
+		07B19A9A15B99F3000E6D316 /* AddCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A9815B99F2F00E6D316 /* AddCommandViewController.m */; };
+		07B19A9B15B99F3000E6D316 /* AddCommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A9915B99F2F00E6D316 /* AddCommandViewController.xib */; };
+		07B19A9F15B99F3C00E6D316 /* DeleteCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19A9D15B99F3B00E6D316 /* DeleteCommandViewController.m */; };
+		07B19AA015B99F3C00E6D316 /* DeleteCommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19A9E15B99F3C00E6D316 /* DeleteCommandViewController.xib */; };
+		07B19AA415B99F4A00E6D316 /* AddSubMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AA215B99F4900E6D316 /* AddSubMenuViewController.m */; };
+		07B19AA515B99F4A00E6D316 /* AddSubMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AA315B99F4A00E6D316 /* AddSubMenuViewController.xib */; };
+		07B19AA915B99F5D00E6D316 /* DeleteSubMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AA715B99F5B00E6D316 /* DeleteSubMenuViewController.m */; };
+		07B19AAA15B99F5D00E6D316 /* DeleteSubMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AA815B99F5C00E6D316 /* DeleteSubMenuViewController.xib */; };
+		07B19AAE15B99F6E00E6D316 /* CreateInteractionChoiceSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AAC15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.m */; };
+		07B19AAF15B99F6E00E6D316 /* CreateInteractionChoiceSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AAD15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.xib */; };
+		07B19AB315B99F8500E6D316 /* DeleteInteractionChoiceSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AB115B99F8300E6D316 /* DeleteInteractionChoiceSetViewController.m */; };
+		07B19AB415B99F8500E6D316 /* DeleteInteractionChoiceSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AB215B99F8400E6D316 /* DeleteInteractionChoiceSetViewController.xib */; };
+		07B19AB815B99F9500E6D316 /* PerformInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AB615B99F9400E6D316 /* PerformInteractionViewController.m */; };
+		07B19AB915B99F9500E6D316 /* PerformInteractionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AB715B99F9400E6D316 /* PerformInteractionViewController.xib */; };
+		07B19AC215B99FBD00E6D316 /* EncodedSyncPDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AC015B99FBC00E6D316 /* EncodedSyncPDataViewController.m */; };
+		07B19AC315B99FBD00E6D316 /* EncodedSyncPDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AC115B99FBD00E6D316 /* EncodedSyncPDataViewController.xib */; };
+		07B19AC715B99FDE00E6D316 /* UnsubscribeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19AC515B99FDC00E6D316 /* UnsubscribeButtonViewController.m */; };
+		07B19AC815B99FDE00E6D316 /* UnsubscribeButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AC615B99FDD00E6D316 /* UnsubscribeButtonViewController.xib */; };
+		07B19ACC15B99FEF00E6D316 /* SetGlobalPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19ACA15B99FED00E6D316 /* SetGlobalPropertiesViewController.m */; };
+		07B19ACD15B99FEF00E6D316 /* SetGlobalPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19ACB15B99FEE00E6D316 /* SetGlobalPropertiesViewController.xib */; };
+		07B19AD115B9A00900E6D316 /* ResetGlobalPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B19ACF15B9A00800E6D316 /* ResetGlobalPropertiesViewController.m */; };
+		07B19AD215B9A00900E6D316 /* ResetGlobalPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B19AD015B9A00900E6D316 /* ResetGlobalPropertiesViewController.xib */; };
+		07C35C41159E1A7200CDA3D3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C35C40159E1A7100CDA3D3 /* ExternalAccessory.framework */; };
+		07C7E11915B9A5940035681D /* SubscribeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7E11715B9A5940035681D /* SubscribeButtonViewController.m */; };
+		07C7E11A15B9A5940035681D /* SubscribeButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C7E11815B9A5940035681D /* SubscribeButtonViewController.xib */; };
+		07C7E13015B9CF5C0035681D /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C7E12F15B9CF5C0035681D /* arrow_up.png */; };
+		07C7E13215B9CF7A0035681D /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C7E13115B9CF7A0035681D /* arrow_down.png */; };
+		07C7E13415B9CF840035681D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C7E13315B9CF840035681D /* play.png */; };
+		07C7E13615B9CF8C0035681D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C7E13515B9CF8C0035681D /* pause.png */; };
+		07CBB64B15EBE3DD00895165 /* Sail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07CBB64A15EBE3DD00895165 /* Sail.mp3 */; };
+		07E6721415EBC71A00949DF1 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E6721315EBC71A00949DF1 /* eraser.png */; };
+		17AB2F8A17A1343300BC9EDA /* libSampleProfile.so in Resources */ = {isa = PBXBuildFile; fileRef = 17AB2F8917A1343300BC9EDA /* libSampleProfile.so */; };
+		17BA97BB177C1D2300ADD266 /* LoadProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97BA177C1D2300ADD266 /* LoadProfileViewController.m */; };
+		17BA97BF177C1D6500ADD266 /* LoadProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BA97BE177C1D6500ADD266 /* LoadProfileViewController.xib */; };
+		17BA97C2177C235E00ADD266 /* UnloadProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97C1177C235E00ADD266 /* UnloadProfileViewController.m */; };
+		17BA97C5177C2E8B00ADD266 /* RemoveProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97C4177C2E8A00ADD266 /* RemoveProfileViewController.m */; };
+		17BA97C8177C30AD00ADD266 /* SendMessageToProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97C7177C30AD00ADD266 /* SendMessageToProfileViewController.m */; };
+		17BA97CA177C30F400ADD266 /* SendMessageToProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BA97C9177C30F400ADD266 /* SendMessageToProfileViewController.xib */; };
+		17BA97CD177C349800ADD266 /* ApplicationStateChangedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97CC177C349700ADD266 /* ApplicationStateChangedViewController.m */; };
+		17BA97CF177C34AF00ADD266 /* ApplicationStateChangedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BA97CE177C34AE00ADD266 /* ApplicationStateChangedViewController.xib */; };
+		17BA97D9177C53F000ADD266 /* AddProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA97D8177C53EE00ADD266 /* AddProfileViewController.m */; };
+		5909E4AD16D31DAF00020F57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5909E4AC16D31DAF00020F57 /* Default-568h@2x.png */; };
+		59E5173016F6CFA30082CFB8 /* libSmartDeviceLinkProxy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E5172F16F6CF950082CFB8 /* libSmartDeviceLinkProxy.a */; };
+		FABDB8E1160A5D510036DE64 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FABDB8E0160A5D510036DE64 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E5172E16F6CF950082CFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E5172A16F6CF950082CFB8 /* SmartDeviceLinkProxy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = SmartDeviceLinkProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0728C88C15DBF1B400A83097 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0765727215C9C47500E21611 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
+		077869AA15C01BFD00FE9390 /* AddMenuOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMenuOption.h; sourceTree = "<group>"; };
+		077869AB15C01BFF00FE9390 /* AddMenuOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMenuOption.m; sourceTree = "<group>"; };
+		0789F35215AF40C900ADEF80 /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		0789F35315AF40C900ADEF80 /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		0789F35415AF40C900ADEF80 /* ConsoleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConsoleViewController.xib; sourceTree = "<group>"; };
+		0789F35715AF65AF00ADEF80 /* UserTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTestViewController.h; sourceTree = "<group>"; };
+		0789F35815AF65AF00ADEF80 /* UserTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTestViewController.m; sourceTree = "<group>"; };
+		0789F35915AF65AF00ADEF80 /* UserTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTestViewController.xib; sourceTree = "<group>"; };
+		0789F35E15AF6B2300ADEF80 /* Blank-Blackboard-PSD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blank-Blackboard-PSD.png"; sourceTree = "<group>"; };
+		0789F37315B06BF300ADEF80 /* cog_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog_02@2x.png"; sourceTree = "<group>"; };
+		0789F37515B06BFD00ADEF80 /* cog_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog_02.png; sourceTree = "<group>"; };
+		0789F37715B06C6500ADEF80 /* game_controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_controller.png; sourceTree = "<group>"; };
+		079E7D63159A43E800181934 /* SDLTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079E7D67159A43E800181934 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		079E7D69159A43E800181934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		079E7D6B159A43E800181934 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		079E7D6F159A43E800181934 /* SmartDeviceLinkTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartDeviceLinkTester-Info.plist"; sourceTree = "<group>"; };
+		079E7D71159A43E800181934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		079E7D73159A43E800181934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		079E7D75159A43E800181934 /* SmartDeviceLinkTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartDeviceLinkTester-Prefix.pch"; sourceTree = "<group>"; };
+		079E7D76159A43E800181934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		079E7D77159A43E800181934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		079E7D93159A472300181934 /* SDLBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLBrain.h; sourceTree = "<group>"; };
+		079E7D94159A472300181934 /* SDLBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLBrain.m; sourceTree = "<group>"; };
+		079E7D9C159A489F00181934 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		07B19A3F15B46ADE00E6D316 /* geogia_alert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = geogia_alert.jpg; sourceTree = "<group>"; };
+		07B19A4015B46ADE00E6D316 /* cali_speak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cali_speak.jpg; sourceTree = "<group>"; };
+		07B19A4515B46BA400E6D316 /* colorado_addcmd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colorado_addcmd.jpg; sourceTree = "<group>"; };
+		07B19A4715B46C4700E6D316 /* AutoTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AutoTestViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		07B19A4815B46C4700E6D316 /* AutoTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AutoTestViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		07B19A4915B46C4700E6D316 /* AutoTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoTestViewController.xib; sourceTree = "<group>"; };
+		07B19A4C15B48DA100E6D316 /* delaware_show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delaware_show.jpg; sourceTree = "<group>"; };
+		07B19A6615B5BF7500E6D316 /* brief_case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brief_case.png; sourceTree = "<group>"; };
+		07B19A6815B9812D00E6D316 /* RPCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCTestViewController.h; sourceTree = "<group>"; };
+		07B19A6915B9812E00E6D316 /* RPCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCTestViewController.m; sourceTree = "<group>"; };
+		07B19A6A15B9812F00E6D316 /* RPCTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPCTestViewController.xib; sourceTree = "<group>"; };
+		07B19A7E15B99C3200E6D316 /* SpeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakViewController.h; sourceTree = "<group>"; };
+		07B19A7F15B99C3200E6D316 /* SpeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakViewController.m; sourceTree = "<group>"; };
+		07B19A8015B99C3200E6D316 /* SpeakViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakViewController.xib; sourceTree = "<group>"; };
+		07B19A8315B99E4A00E6D316 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		07B19A8415B99E4A00E6D316 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		07B19A8515B99E4A00E6D316 /* ShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowViewController.xib; sourceTree = "<group>"; };
+		07B19A8815B99F0800E6D316 /* UnregisterAppInterfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnregisterAppInterfaceViewController.h; sourceTree = "<group>"; };
+		07B19A8915B99F0800E6D316 /* UnregisterAppInterfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnregisterAppInterfaceViewController.m; sourceTree = "<group>"; };
+		07B19A8A15B99F0800E6D316 /* UnregisterAppInterfaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnregisterAppInterfaceViewController.xib; sourceTree = "<group>"; };
+		07B19A8D15B99F1500E6D316 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AlertViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		07B19A8E15B99F1500E6D316 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AlertViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		07B19A8F15B99F1500E6D316 /* AlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		07B19A9215B99F2400E6D316 /* SetMediaClockTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMediaClockTimerViewController.h; sourceTree = "<group>"; };
+		07B19A9315B99F2400E6D316 /* SetMediaClockTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMediaClockTimerViewController.m; sourceTree = "<group>"; };
+		07B19A9415B99F2400E6D316 /* SetMediaClockTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetMediaClockTimerViewController.xib; sourceTree = "<group>"; };
+		07B19A9715B99F2F00E6D316 /* AddCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCommandViewController.h; sourceTree = "<group>"; };
+		07B19A9815B99F2F00E6D316 /* AddCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCommandViewController.m; sourceTree = "<group>"; };
+		07B19A9915B99F2F00E6D316 /* AddCommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCommandViewController.xib; sourceTree = "<group>"; };
+		07B19A9C15B99F3B00E6D316 /* DeleteCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteCommandViewController.h; sourceTree = "<group>"; };
+		07B19A9D15B99F3B00E6D316 /* DeleteCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteCommandViewController.m; sourceTree = "<group>"; };
+		07B19A9E15B99F3C00E6D316 /* DeleteCommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteCommandViewController.xib; sourceTree = "<group>"; };
+		07B19AA115B99F4900E6D316 /* AddSubMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSubMenuViewController.h; sourceTree = "<group>"; };
+		07B19AA215B99F4900E6D316 /* AddSubMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSubMenuViewController.m; sourceTree = "<group>"; };
+		07B19AA315B99F4A00E6D316 /* AddSubMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddSubMenuViewController.xib; sourceTree = "<group>"; };
+		07B19AA615B99F5B00E6D316 /* DeleteSubMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteSubMenuViewController.h; sourceTree = "<group>"; };
+		07B19AA715B99F5B00E6D316 /* DeleteSubMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteSubMenuViewController.m; sourceTree = "<group>"; };
+		07B19AA815B99F5C00E6D316 /* DeleteSubMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteSubMenuViewController.xib; sourceTree = "<group>"; };
+		07B19AAB15B99F6C00E6D316 /* CreateInteractionChoiceSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateInteractionChoiceSetViewController.h; sourceTree = "<group>"; };
+		07B19AAC15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateInteractionChoiceSetViewController.m; sourceTree = "<group>"; };
+		07B19AAD15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateInteractionChoiceSetViewController.xib; sourceTree = "<group>"; };
+		07B19AB015B99F8300E6D316 /* DeleteInteractionChoiceSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteInteractionChoiceSetViewController.h; sourceTree = "<group>"; };
+		07B19AB115B99F8300E6D316 /* DeleteInteractionChoiceSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteInteractionChoiceSetViewController.m; sourceTree = "<group>"; };
+		07B19AB215B99F8400E6D316 /* DeleteInteractionChoiceSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeleteInteractionChoiceSetViewController.xib; sourceTree = "<group>"; };
+		07B19AB515B99F9300E6D316 /* PerformInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformInteractionViewController.h; sourceTree = "<group>"; };
+		07B19AB615B99F9400E6D316 /* PerformInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformInteractionViewController.m; sourceTree = "<group>"; };
+		07B19AB715B99F9400E6D316 /* PerformInteractionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerformInteractionViewController.xib; sourceTree = "<group>"; };
+		07B19ABF15B99FBB00E6D316 /* EncodedSyncPDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodedSyncPDataViewController.h; sourceTree = "<group>"; };
+		07B19AC015B99FBC00E6D316 /* EncodedSyncPDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncodedSyncPDataViewController.m; sourceTree = "<group>"; };
+		07B19AC115B99FBD00E6D316 /* EncodedSyncPDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EncodedSyncPDataViewController.xib; sourceTree = "<group>"; };
+		07B19AC415B99FDB00E6D316 /* UnsubscribeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnsubscribeButtonViewController.h; sourceTree = "<group>"; };
+		07B19AC515B99FDC00E6D316 /* UnsubscribeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnsubscribeButtonViewController.m; sourceTree = "<group>"; };
+		07B19AC615B99FDD00E6D316 /* UnsubscribeButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnsubscribeButtonViewController.xib; sourceTree = "<group>"; };
+		07B19AC915B99FEC00E6D316 /* SetGlobalPropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGlobalPropertiesViewController.h; sourceTree = "<group>"; };
+		07B19ACA15B99FED00E6D316 /* SetGlobalPropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGlobalPropertiesViewController.m; sourceTree = "<group>"; };
+		07B19ACB15B99FEE00E6D316 /* SetGlobalPropertiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetGlobalPropertiesViewController.xib; sourceTree = "<group>"; };
+		07B19ACE15B9A00700E6D316 /* ResetGlobalPropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetGlobalPropertiesViewController.h; sourceTree = "<group>"; };
+		07B19ACF15B9A00800E6D316 /* ResetGlobalPropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetGlobalPropertiesViewController.m; sourceTree = "<group>"; };
+		07B19AD015B9A00900E6D316 /* ResetGlobalPropertiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetGlobalPropertiesViewController.xib; sourceTree = "<group>"; };
+		07C35C40159E1A7100CDA3D3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		07C7E11615B9A5940035681D /* SubscribeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeButtonViewController.h; sourceTree = "<group>"; };
+		07C7E11715B9A5940035681D /* SubscribeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeButtonViewController.m; sourceTree = "<group>"; };
+		07C7E11815B9A5940035681D /* SubscribeButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubscribeButtonViewController.xib; sourceTree = "<group>"; };
+		07C7E12F15B9CF5C0035681D /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
+		07C7E13115B9CF7A0035681D /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		07C7E13315B9CF840035681D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		07C7E13515B9CF8C0035681D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		07CBB64A15EBE3DD00895165 /* Sail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sail.mp3; sourceTree = "<group>"; };
+		07E6721315EBC71A00949DF1 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		17AB2F8917A1343300BC9EDA /* libSampleProfile.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = libSampleProfile.so; sourceTree = "<group>"; };
+		17BA97B9177C1D2200ADD266 /* LoadProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadProfileViewController.h; sourceTree = "<group>"; };
+		17BA97BA177C1D2300ADD266 /* LoadProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadProfileViewController.m; sourceTree = "<group>"; };
+		17BA97BE177C1D6500ADD266 /* LoadProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadProfileViewController.xib; sourceTree = "<group>"; };
+		17BA97C0177C235D00ADD266 /* UnloadProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnloadProfileViewController.h; sourceTree = "<group>"; };
+		17BA97C1177C235E00ADD266 /* UnloadProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnloadProfileViewController.m; sourceTree = "<group>"; };
+		17BA97C3177C2E8A00ADD266 /* RemoveProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveProfileViewController.h; sourceTree = "<group>"; };
+		17BA97C4177C2E8A00ADD266 /* RemoveProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveProfileViewController.m; sourceTree = "<group>"; };
+		17BA97C6177C30AC00ADD266 /* SendMessageToProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageToProfileViewController.h; sourceTree = "<group>"; };
+		17BA97C7177C30AD00ADD266 /* SendMessageToProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageToProfileViewController.m; sourceTree = "<group>"; };
+		17BA97C9177C30F400ADD266 /* SendMessageToProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMessageToProfileViewController.xib; sourceTree = "<group>"; };
+		17BA97CB177C349600ADD266 /* ApplicationStateChangedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStateChangedViewController.h; sourceTree = "<group>"; };
+		17BA97CC177C349700ADD266 /* ApplicationStateChangedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStateChangedViewController.m; sourceTree = "<group>"; };
+		17BA97CE177C34AE00ADD266 /* ApplicationStateChangedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationStateChangedViewController.xib; sourceTree = "<group>"; };
+		17BA97D7177C53ED00ADD266 /* AddProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProfileViewController.h; sourceTree = "<group>"; };
+		17BA97D8177C53EE00ADD266 /* AddProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProfileViewController.m; sourceTree = "<group>"; };
+		5909E4AC16D31DAF00020F57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		59E5172A16F6CF950082CFB8 /* SmartDeviceLinkProxy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SmartDeviceLinkProxy.xcodeproj; path = ../SmartDeviceLinkProxy/SmartDeviceLinkProxy.xcodeproj; sourceTree = "<group>"; };
+		FABDB8E0160A5D510036DE64 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079E7D60159A43E800181934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E5173016F6CFA30082CFB8 /* libSmartDeviceLinkProxy.a in Frameworks */,
+				0728C88D15DBF1B400A83097 /* MessageUI.framework in Frameworks */,
+				07C35C41159E1A7200CDA3D3 /* ExternalAccessory.framework in Frameworks */,
+				079E7D9D159A489F00181934 /* AVFoundation.framework in Frameworks */,
+				079E7D68159A43E800181934 /* UIKit.framework in Frameworks */,
+				079E7D6A159A43E800181934 /* Foundation.framework in Frameworks */,
+				079E7D6C159A43E800181934 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079E7D58159A43E800181934 = {
+			isa = PBXGroup;
+			children = (
+				17AB2F8817A1343300BC9EDA /* SampleProfile */,
+				59E5172A16F6CF950082CFB8 /* SmartDeviceLinkProxy.xcodeproj */,
+				0728C88C15DBF1B400A83097 /* MessageUI.framework */,
+				07C35C40159E1A7100CDA3D3 /* ExternalAccessory.framework */,
+				079E7D9C159A489F00181934 /* AVFoundation.framework */,
+				079E7D6D159A43E800181934 /* SmartDeviceLinkTester */,
+				079E7D66159A43E800181934 /* Frameworks */,
+				079E7D64159A43E800181934 /* Products */,
+				5909E4AC16D31DAF00020F57 /* Default-568h@2x.png */,
+			);
+			sourceTree = "<group>";
+		};
+		079E7D64159A43E800181934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079E7D63159A43E800181934 /* SDLTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079E7D66159A43E800181934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				079E7D67159A43E800181934 /* UIKit.framework */,
+				079E7D69159A43E800181934 /* Foundation.framework */,
+				079E7D6B159A43E800181934 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079E7D6D159A43E800181934 /* SmartDeviceLinkTester */ = {
+			isa = PBXGroup;
+			children = (
+				07B19A7815B9994B00E6D316 /* RPC */,
+				079E7D76159A43E800181934 /* AppDelegate.h */,
+				079E7D77159A43E800181934 /* AppDelegate.m */,
+				0789F35715AF65AF00ADEF80 /* UserTestViewController.h */,
+				0789F35815AF65AF00ADEF80 /* UserTestViewController.m */,
+				0789F35915AF65AF00ADEF80 /* UserTestViewController.xib */,
+				07B19A6815B9812D00E6D316 /* RPCTestViewController.h */,
+				07B19A6915B9812E00E6D316 /* RPCTestViewController.m */,
+				07B19A6A15B9812F00E6D316 /* RPCTestViewController.xib */,
+				079E7D93159A472300181934 /* SDLBrain.h */,
+				079E7D94159A472300181934 /* SDLBrain.m */,
+				07B19A4715B46C4700E6D316 /* AutoTestViewController.h */,
+				07B19A4815B46C4700E6D316 /* AutoTestViewController.m */,
+				07B19A4915B46C4700E6D316 /* AutoTestViewController.xib */,
+				0789F35215AF40C900ADEF80 /* ConsoleViewController.h */,
+				0789F35315AF40C900ADEF80 /* ConsoleViewController.m */,
+				0789F35415AF40C900ADEF80 /* ConsoleViewController.xib */,
+				079E7D92159A441100181934 /* Images */,
+				079E7D6E159A43E800181934 /* Supporting Files */,
+				FABDB8E0160A5D510036DE64 /* Settings.bundle */,
+			);
+			path = SmartDeviceLinkTester;
+			sourceTree = "<group>";
+		};
+		079E7D6E159A43E800181934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CBB64A15EBE3DD00895165 /* Sail.mp3 */,
+				079E7D6F159A43E800181934 /* SmartDeviceLinkTester-Info.plist */,
+				079E7D70159A43E800181934 /* InfoPlist.strings */,
+				079E7D73159A43E800181934 /* main.m */,
+				079E7D75159A43E800181934 /* SmartDeviceLinkTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		079E7D92159A441100181934 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07E6721315EBC71A00949DF1 /* eraser.png */,
+				0765727215C9C47500E21611 /* database.png */,
+				07C7E13515B9CF8C0035681D /* pause.png */,
+				07C7E13315B9CF840035681D /* play.png */,
+				07C7E13115B9CF7A0035681D /* arrow_down.png */,
+				07C7E12F15B9CF5C0035681D /* arrow_up.png */,
+				07B19A6615B5BF7500E6D316 /* brief_case.png */,
+				07B19A4C15B48DA100E6D316 /* delaware_show.jpg */,
+				07B19A4515B46BA400E6D316 /* colorado_addcmd.jpg */,
+				07B19A3F15B46ADE00E6D316 /* geogia_alert.jpg */,
+				07B19A4015B46ADE00E6D316 /* cali_speak.jpg */,
+				0789F37715B06C6500ADEF80 /* game_controller.png */,
+				0789F37515B06BFD00ADEF80 /* cog_02.png */,
+				0789F37315B06BF300ADEF80 /* cog_02@2x.png */,
+				0789F35E15AF6B2300ADEF80 /* Blank-Blackboard-PSD.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		07B19A7815B9994B00E6D316 /* RPC */ = {
+			isa = PBXGroup;
+			children = (
+				17BA97BD177C1D2C00ADD266 /* iviLink */,
+				07B19A7E15B99C3200E6D316 /* SpeakViewController.h */,
+				07B19A7F15B99C3200E6D316 /* SpeakViewController.m */,
+				07B19A8015B99C3200E6D316 /* SpeakViewController.xib */,
+				07B19A8315B99E4A00E6D316 /* ShowViewController.h */,
+				07B19A8415B99E4A00E6D316 /* ShowViewController.m */,
+				07B19A8515B99E4A00E6D316 /* ShowViewController.xib */,
+				07B19A8815B99F0800E6D316 /* UnregisterAppInterfaceViewController.h */,
+				07B19A8915B99F0800E6D316 /* UnregisterAppInterfaceViewController.m */,
+				07B19A8A15B99F0800E6D316 /* UnregisterAppInterfaceViewController.xib */,
+				07B19A8D15B99F1500E6D316 /* AlertViewController.h */,
+				07B19A8E15B99F1500E6D316 /* AlertViewController.m */,
+				07B19A8F15B99F1500E6D316 /* AlertViewController.xib */,
+				07B19A9215B99F2400E6D316 /* SetMediaClockTimerViewController.h */,
+				07B19A9315B99F2400E6D316 /* SetMediaClockTimerViewController.m */,
+				07B19A9415B99F2400E6D316 /* SetMediaClockTimerViewController.xib */,
+				07B19A9715B99F2F00E6D316 /* AddCommandViewController.h */,
+				07B19A9815B99F2F00E6D316 /* AddCommandViewController.m */,
+				07B19A9915B99F2F00E6D316 /* AddCommandViewController.xib */,
+				07B19A9C15B99F3B00E6D316 /* DeleteCommandViewController.h */,
+				07B19A9D15B99F3B00E6D316 /* DeleteCommandViewController.m */,
+				07B19A9E15B99F3C00E6D316 /* DeleteCommandViewController.xib */,
+				07B19AA115B99F4900E6D316 /* AddSubMenuViewController.h */,
+				07B19AA215B99F4900E6D316 /* AddSubMenuViewController.m */,
+				07B19AA315B99F4A00E6D316 /* AddSubMenuViewController.xib */,
+				07B19AA615B99F5B00E6D316 /* DeleteSubMenuViewController.h */,
+				07B19AA715B99F5B00E6D316 /* DeleteSubMenuViewController.m */,
+				07B19AA815B99F5C00E6D316 /* DeleteSubMenuViewController.xib */,
+				07B19AAB15B99F6C00E6D316 /* CreateInteractionChoiceSetViewController.h */,
+				07B19AAC15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.m */,
+				07B19AAD15B99F6D00E6D316 /* CreateInteractionChoiceSetViewController.xib */,
+				07B19AB015B99F8300E6D316 /* DeleteInteractionChoiceSetViewController.h */,
+				07B19AB115B99F8300E6D316 /* DeleteInteractionChoiceSetViewController.m */,
+				07B19AB215B99F8400E6D316 /* DeleteInteractionChoiceSetViewController.xib */,
+				07B19AB515B99F9300E6D316 /* PerformInteractionViewController.h */,
+				07B19AB615B99F9400E6D316 /* PerformInteractionViewController.m */,
+				07B19AB715B99F9400E6D316 /* PerformInteractionViewController.xib */,
+				07B19ABF15B99FBB00E6D316 /* EncodedSyncPDataViewController.h */,
+				07B19AC015B99FBC00E6D316 /* EncodedSyncPDataViewController.m */,
+				07B19AC115B99FBD00E6D316 /* EncodedSyncPDataViewController.xib */,
+				07C7E11615B9A5940035681D /* SubscribeButtonViewController.h */,
+				07C7E11715B9A5940035681D /* SubscribeButtonViewController.m */,
+				07C7E11815B9A5940035681D /* SubscribeButtonViewController.xib */,
+				07B19AC415B99FDB00E6D316 /* UnsubscribeButtonViewController.h */,
+				07B19AC515B99FDC00E6D316 /* UnsubscribeButtonViewController.m */,
+				07B19AC615B99FDD00E6D316 /* UnsubscribeButtonViewController.xib */,
+				07B19AC915B99FEC00E6D316 /* SetGlobalPropertiesViewController.h */,
+				07B19ACA15B99FED00E6D316 /* SetGlobalPropertiesViewController.m */,
+				07B19ACB15B99FEE00E6D316 /* SetGlobalPropertiesViewController.xib */,
+				07B19ACE15B9A00700E6D316 /* ResetGlobalPropertiesViewController.h */,
+				07B19ACF15B9A00800E6D316 /* ResetGlobalPropertiesViewController.m */,
+				07B19AD015B9A00900E6D316 /* ResetGlobalPropertiesViewController.xib */,
+				077869AA15C01BFD00FE9390 /* AddMenuOption.h */,
+				077869AB15C01BFF00FE9390 /* AddMenuOption.m */,
+			);
+			name = RPC;
+			sourceTree = "<group>";
+		};
+		17AB2F8817A1343300BC9EDA /* SampleProfile */ = {
+			isa = PBXGroup;
+			children = (
+				17AB2F8917A1343300BC9EDA /* libSampleProfile.so */,
+			);
+			name = SampleProfile;
+			path = SmartDeviceLinkTester/SampleProfile;
+			sourceTree = "<group>";
+		};
+		17BA97BD177C1D2C00ADD266 /* iviLink */ = {
+			isa = PBXGroup;
+			children = (
+				17BA97D7177C53ED00ADD266 /* AddProfileViewController.h */,
+				17BA97D8177C53EE00ADD266 /* AddProfileViewController.m */,
+				17BA97CB177C349600ADD266 /* ApplicationStateChangedViewController.h */,
+				17BA97CC177C349700ADD266 /* ApplicationStateChangedViewController.m */,
+				17BA97CE177C34AE00ADD266 /* ApplicationStateChangedViewController.xib */,
+				17BA97B9177C1D2200ADD266 /* LoadProfileViewController.h */,
+				17BA97BA177C1D2300ADD266 /* LoadProfileViewController.m */,
+				17BA97BE177C1D6500ADD266 /* LoadProfileViewController.xib */,
+				17BA97C3177C2E8A00ADD266 /* RemoveProfileViewController.h */,
+				17BA97C4177C2E8A00ADD266 /* RemoveProfileViewController.m */,
+				17BA97C6177C30AC00ADD266 /* SendMessageToProfileViewController.h */,
+				17BA97C7177C30AD00ADD266 /* SendMessageToProfileViewController.m */,
+				17BA97C9177C30F400ADD266 /* SendMessageToProfileViewController.xib */,
+				17BA97C0177C235D00ADD266 /* UnloadProfileViewController.h */,
+				17BA97C1177C235E00ADD266 /* UnloadProfileViewController.m */,
+			);
+			name = iviLink;
+			sourceTree = "<group>";
+		};
+		59E5172B16F6CF950082CFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E5172F16F6CF950082CFB8 /* libSmartDeviceLinkProxy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079E7D62159A43E800181934 /* SmartDeviceLinkTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079E7D8F159A43E900181934 /* Build configuration list for PBXNativeTarget "SmartDeviceLinkTester" */;
+			buildPhases = (
+				079E7D5F159A43E800181934 /* Sources */,
+				079E7D60159A43E800181934 /* Frameworks */,
+				079E7D61159A43E800181934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartDeviceLinkTester;
+			productName = SyncTest;
+			productReference = 079E7D63159A43E800181934 /* SDLTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079E7D5A159A43E800181934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 079E7D5D159A43E800181934 /* Build configuration list for PBXProject "SmartDeviceLinkTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 079E7D58159A43E800181934;
+			productRefGroup = 079E7D64159A43E800181934 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 59E5172B16F6CF950082CFB8 /* Products */;
+					ProjectRef = 59E5172A16F6CF950082CFB8 /* SmartDeviceLinkProxy.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				079E7D62159A43E800181934 /* SmartDeviceLinkTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		59E5172F16F6CF950082CFB8 /* libSmartDeviceLinkProxy.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSmartDeviceLinkProxy.a;
+			remoteRef = 59E5172E16F6CF950082CFB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079E7D61159A43E800181934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079E7D72159A43E800181934 /* InfoPlist.strings in Resources */,
+				0789F35615AF40CA00ADEF80 /* ConsoleViewController.xib in Resources */,
+				0789F35B15AF65AF00ADEF80 /* UserTestViewController.xib in Resources */,
+				0789F35F15AF6B2300ADEF80 /* Blank-Blackboard-PSD.png in Resources */,
+				0789F37415B06BF300ADEF80 /* cog_02@2x.png in Resources */,
+				0789F37615B06BFD00ADEF80 /* cog_02.png in Resources */,
+				0789F37815B06C6500ADEF80 /* game_controller.png in Resources */,
+				07B19A4215B46ADE00E6D316 /* geogia_alert.jpg in Resources */,
+				07B19A4315B46ADE00E6D316 /* cali_speak.jpg in Resources */,
+				07B19A4615B46BA400E6D316 /* colorado_addcmd.jpg in Resources */,
+				07B19A4B15B46C4700E6D316 /* AutoTestViewController.xib in Resources */,
+				07B19A4D15B48DA100E6D316 /* delaware_show.jpg in Resources */,
+				07B19A6715B5BF7500E6D316 /* brief_case.png in Resources */,
+				07B19A6C15B9812F00E6D316 /* RPCTestViewController.xib in Resources */,
+				07B19A8215B99C3200E6D316 /* SpeakViewController.xib in Resources */,
+				07B19A8715B99E4A00E6D316 /* ShowViewController.xib in Resources */,
+				07B19A8C15B99F0800E6D316 /* UnregisterAppInterfaceViewController.xib in Resources */,
+				07B19A9115B99F1600E6D316 /* AlertViewController.xib in Resources */,
+				07B19A9615B99F2500E6D316 /* SetMediaClockTimerViewController.xib in Resources */,
+				07B19A9B15B99F3000E6D316 /* AddCommandViewController.xib in Resources */,
+				07B19AA015B99F3C00E6D316 /* DeleteCommandViewController.xib in Resources */,
+				07B19AA515B99F4A00E6D316 /* AddSubMenuViewController.xib in Resources */,
+				07B19AAA15B99F5D00E6D316 /* DeleteSubMenuViewController.xib in Resources */,
+				07B19AAF15B99F6E00E6D316 /* CreateInteractionChoiceSetViewController.xib in Resources */,
+				07B19AB415B99F8500E6D316 /* DeleteInteractionChoiceSetViewController.xib in Resources */,
+				07B19AB915B99F9500E6D316 /* PerformInteractionViewController.xib in Resources */,
+				07B19AC315B99FBD00E6D316 /* EncodedSyncPDataViewController.xib in Resources */,
+				07B19AC815B99FDE00E6D316 /* UnsubscribeButtonViewController.xib in Resources */,
+				07B19ACD15B99FEF00E6D316 /* SetGlobalPropertiesViewController.xib in Resources */,
+				07B19AD215B9A00900E6D316 /* ResetGlobalPropertiesViewController.xib in Resources */,
+				07C7E11A15B9A5940035681D /* SubscribeButtonViewController.xib in Resources */,
+				07C7E13015B9CF5C0035681D /* arrow_up.png in Resources */,
+				07C7E13215B9CF7A0035681D /* arrow_down.png in Resources */,
+				07C7E13415B9CF840035681D /* play.png in Resources */,
+				07C7E13615B9CF8C0035681D /* pause.png in Resources */,
+				0765727315C9C47500E21611 /* database.png in Resources */,
+				07E6721415EBC71A00949DF1 /* eraser.png in Resources */,
+				07CBB64B15EBE3DD00895165 /* Sail.mp3 in Resources */,
+				FABDB8E1160A5D510036DE64 /* Settings.bundle in Resources */,
+				5909E4AD16D31DAF00020F57 /* Default-568h@2x.png in Resources */,
+				17BA97BF177C1D6500ADD266 /* LoadProfileViewController.xib in Resources */,
+				17BA97CA177C30F400ADD266 /* SendMessageToProfileViewController.xib in Resources */,
+				17BA97CF177C34AF00ADD266 /* ApplicationStateChangedViewController.xib in Resources */,
+				17AB2F8A17A1343300BC9EDA /* libSampleProfile.so in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079E7D5F159A43E800181934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079E7D74159A43E800181934 /* main.m in Sources */,
+				079E7D78159A43E800181934 /* AppDelegate.m in Sources */,
+				079E7D95159A472300181934 /* SDLBrain.m in Sources */,
+				0789F35515AF40CA00ADEF80 /* ConsoleViewController.m in Sources */,
+				0789F35A15AF65AF00ADEF80 /* UserTestViewController.m in Sources */,
+				07B19A4A15B46C4700E6D316 /* AutoTestViewController.m in Sources */,
+				07B19A6B15B9812F00E6D316 /* RPCTestViewController.m in Sources */,
+				07B19A8115B99C3200E6D316 /* SpeakViewController.m in Sources */,
+				07B19A8615B99E4A00E6D316 /* ShowViewController.m in Sources */,
+				07B19A8B15B99F0800E6D316 /* UnregisterAppInterfaceViewController.m in Sources */,
+				07B19A9015B99F1600E6D316 /* AlertViewController.m in Sources */,
+				07B19A9515B99F2500E6D316 /* SetMediaClockTimerViewController.m in Sources */,
+				07B19A9A15B99F3000E6D316 /* AddCommandViewController.m in Sources */,
+				07B19A9F15B99F3C00E6D316 /* DeleteCommandViewController.m in Sources */,
+				07B19AA415B99F4A00E6D316 /* AddSubMenuViewController.m in Sources */,
+				07B19AA915B99F5D00E6D316 /* DeleteSubMenuViewController.m in Sources */,
+				07B19AAE15B99F6E00E6D316 /* CreateInteractionChoiceSetViewController.m in Sources */,
+				07B19AB315B99F8500E6D316 /* DeleteInteractionChoiceSetViewController.m in Sources */,
+				07B19AB815B99F9500E6D316 /* PerformInteractionViewController.m in Sources */,
+				07B19AC215B99FBD00E6D316 /* EncodedSyncPDataViewController.m in Sources */,
+				07B19AC715B99FDE00E6D316 /* UnsubscribeButtonViewController.m in Sources */,
+				07B19ACC15B99FEF00E6D316 /* SetGlobalPropertiesViewController.m in Sources */,
+				07B19AD115B9A00900E6D316 /* ResetGlobalPropertiesViewController.m in Sources */,
+				07C7E11915B9A5940035681D /* SubscribeButtonViewController.m in Sources */,
+				077869AC15C01C0000FE9390 /* AddMenuOption.m in Sources */,
+				17BA97BB177C1D2300ADD266 /* LoadProfileViewController.m in Sources */,
+				17BA97C2177C235E00ADD266 /* UnloadProfileViewController.m in Sources */,
+				17BA97C5177C2E8B00ADD266 /* RemoveProfileViewController.m in Sources */,
+				17BA97C8177C30AD00ADD266 /* SendMessageToProfileViewController.m in Sources */,
+				17BA97CD177C349800ADD266 /* ApplicationStateChangedViewController.m in Sources */,
+				17BA97D9177C53F000ADD266 /* AddProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		079E7D70159A43E800181934 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079E7D71159A43E800181934 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079E7D8D159A43E900181934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lstdc++";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		079E7D8E159A43E900181934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lstdc++";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079E7D90159A43E900181934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartDeviceLinkTester/SmartDeviceLinkTester-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../SmartDeviceLinkProxy/**";
+				INFOPLIST_FILE = "SmartDeviceLinkTester/SmartDeviceLinkTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = SDLTester;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		079E7D91159A43E900181934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartDeviceLinkTester/SmartDeviceLinkTester-Prefix.pch";
+				HEADER_SEARCH_PATHS = "../SmartDeviceLinkProxy/**";
+				INFOPLIST_FILE = "SmartDeviceLinkTester/SmartDeviceLinkTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = SDLTester;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079E7D5D159A43E800181934 /* Build configuration list for PBXProject "SmartDeviceLinkTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079E7D8D159A43E900181934 /* Debug */,
+				079E7D8E159A43E900181934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079E7D8F159A43E900181934 /* Build configuration list for PBXNativeTarget "SmartDeviceLinkTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079E7D90159A43E900181934 /* Debug */,
+				079E7D91159A43E900181934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079E7D5A159A43E800181934 /* Project object */;
+}
