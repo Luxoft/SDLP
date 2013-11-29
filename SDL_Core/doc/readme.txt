@@ -1,6 +1,7 @@
 * Introduction
   ================
   smartDeviceLinkCore is an application which manages the transport, connection and communication between a head unit and mobile device.
+  Software version 1.0
 
 * OS and Hardware
   =========
@@ -11,26 +12,19 @@
 
 * External components
   ===================
-  For build application we need:
+  To build application we need:
   libbluetooth3, the BlueZ library
   libbluetooth-dev, the development files to link to the BluetZ library.
   libuuid1 - library for generation uuids
-  Install libraries:
-  sudo apt-get install libbluetooth3
-  sudo apt-get install libbluetooth-dev
-  sudo apt-get install uuid-dev
   We are using cmake to create build configurations.
-  Install cmake:
-  sudo apt-get install cmake
-  Also, make sure the g++ compiler is installed:
-  sudo apt-get install g++
+  Also, make sure the g++ compiler is installed.
   To start web-based HMI we need web-browser with web-socket RFC6455 support.
-  For example Google Chromium. Install it using:
-  sudo apt-get install chromium-browser
+  For example Google Chromium could be used.
+  To install all these packages use command:
+  sudo apt-get install libbluetooth3 libbluetooth-dev uuid-dev cmake g++ chromium-browser
   Install ZeroMQ library its dependencies. Go to git_repo/SDL_Core/src/thirdPartyLibs/zeromq-3.2.3/,
   build and install it using instructions given in INSTALL or use the following commands: 
-     sudo apt-get install autoconf
-     sudo apt-get install libtool
+     sudo apt-get install autoconf libtool
      ./autogen.sh
      ./configure
      make
@@ -85,7 +79,7 @@
   Start application with command:
   ./smartDeviceLinkCore
   Application starts to search devices and starts HMI in chromium-browser.
-  In case HMI has not been started please start web-based HMI manually in browser opening SDL_Coresrc/components/HMI/index.html.
+  In case HMI has not been started please start web-based HMI manually in browser opening SDL_Core/src/components/HMI/index.html.
   SmartDeviceLinkCore is searching Bluetooth devices with a correspondibg service.
   Go to info menu in HMI and press App button.
   Press change Devices button.
@@ -142,5 +136,9 @@
   
 * iOS
   ===
-  SDLP iOS part is located in SDL_iOS folder. Like SDLP Android part. It contains SDLP iOS proxy and SDLP iOS tester application. 
+  SDLP iOS part is located in SDL_iOS folder. It contains SDLP iOS proxy and SDLP iOS tester application and SDLP Profiles Tester.
   
+    SDL_iOS
+       |--SmartDeviceLinkProxy  - contains SDLP iOS proxy
+       |--SmartDeviceLinkTester - contains SDLP tester application
+       |--ProfilesTester        - contains SDLP Profiles tester application

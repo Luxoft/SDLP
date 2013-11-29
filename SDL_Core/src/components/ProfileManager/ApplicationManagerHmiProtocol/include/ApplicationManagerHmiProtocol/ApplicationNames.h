@@ -28,7 +28,7 @@
 #define __APPLICATION_NAMES_H__
 
 /**
- * Applications that can be accessed using SDLPHmiRequest.
+ * Applications that can be accessed using IviLinkHmiRequest.
  */
 static const char * HOME_NAME = "home";
 static const char * MEDIA_NAME = "media";
